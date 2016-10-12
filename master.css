@@ -1,0 +1,94 @@
+html {
+
+   background: url(images/background.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+}
+
+
+.prof-box {
+	width: 400px;
+	height:600px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 140px;
+	text-align: center;
+	
+}
+
+.prof-pic {
+	height: 100px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+h1 {
+	font-weight: 100px;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+p {
+	font-weight: 200;
+	letter-spacing: 1;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+ul.topnav li a:hover {background-color: #555;}
+
+
+ul.topnav li.icon {display: none;}
+
+footer {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background: #505050;
+	bottom: 0;
+	text-align: center;
+}
+.copyright p {
+	margin: 0;
+	padding: 0;
+	line-height: 60px;
+	color: #fff
+}
+
+

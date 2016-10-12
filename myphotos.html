@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="photos.css">
+    <title>My Photo Gallery</title>
+</head>
+<body>
+
+ <ul class="topnav" id="myTopnav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about/about.html">About Me</a></li>
+  <li><a href="myphotos.html"><strong>Photo Gallery</strong></a></li>
+  <li><a href="conact.html">Contact</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+
+    <div id="container"></div>
+	<header>Welcome to my Photo Gallery</header>
+	
+	<p>This you I was lucky to experience American culture and its traditions</p>
+	<p>I spent four months in Wisconsin and it was the best summer I have ever had.</p>
+	<p>I was working at very well know restaran in Fish Creek which was Julie's Park Cafe and Motel</p>
+	<p>I made a lot of good friends and visited many beautiful places in Wisconsine</p>
+	<p>Here are some pictures I have taken which demonstrate the beauty of this blace.</p>
+	 <hr>
+	  <ul class="hoverbox">
+	   <li>
+	   <a href="images/wis1.jpg"><img src="images/wis1.jpg" alt="The best outside view ever" />
+       <img src="images/wis1" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis2.jpg"><img src="images/wis2.jpg" alt="text" />
+       <img src="images/wis2" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis3.jpg"><img src="images/wis3.jpg" alt="text" />
+       <img src="images/wis3" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis4.jpg"><img src="images/wis4.jpg" alt="text" />
+       <img src="images/wis4" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis5.jpg"><img src="images/wis5.jpg" alt="text" />
+       <img src="images/wis5" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis6.jpg"><img src="images/wis6.jpg" alt="text" />
+       <img src="images/wis6" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis7.jpg"><img src="images/wis7.jpg" alt="text" />
+       <img src="images/wis7" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis8.jpg"><img src="images/wis8.jpg" alt="text" />
+       <img src="images/wis8" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis9.jpg"><img src="images/wis9.jpg" alt="text" />
+       <img src="images/wis9" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis10.jpg"><img src="images/wis10.jpg" alt="text" />
+       <img src="images/wis10" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis11.jpg"><img src="images/wis11.jpg" alt="text" />
+       <img src="images/wis11" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis12.jpg"><img src="images/wis12.jpg" alt="text" />
+       <img src="images/wis12" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis13.jpg"><img src="images/wis13.jpg" alt="text" />
+       <img src="images/wis13" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis14.jpg"><img src="images/wis14.jpg" alt="text" />
+       <img src="images/wis14" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis15.jpg"><img src="images/wis15.jpg" alt="text" />
+       <img src="images/wis15" alt="text" class="preview" /></a>
+	   </li>
+	   <li>
+	   <a href="images/wis16.jpg"><img src="images/wis16.jpg" alt="text" />
+       <img src="images/wis16" alt="text" class="preview" /></a>
+	   </li>
+
+	   </ul>
+	   
+<footer>
+ <div class="copyright">
+    <p>&copy; 2016 Copyright. All Rights Reserved</p>
+</div>
+</footer>
+	   
+<style>
+html {
+
+   background: url(images/two.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+}
+
+.hoverbox {
+       cursor: default;
+	   list-style: none;
+}
+.hoverbox a .preview {
+       display: none;
+}
+.hoverbox a:hover .preview {
+       display: block;
+	   position: absolute;
+	   top: -33px;
+	   left: -45px;
+	   z-index: 1;
+}
+.hoverbox img {
+       background: #fff;
+	   border-color: #aaa #ccc #ddd #bbb;
+	   border-style: solid;
+	   border-width: 3px;
+	   color: inherit;
+	   padding: 3px;
+	   vertical-align: top;
+	   width: 900px;
+}
+.hoverbox li {
+       background: #eee;
+       border-color: #ddd #bbb #aaa #ccc;
+       border-style: solid;
+       border-width: 1px;
+       color: inherit;
+       display: inline;
+       float: left;
+       margin: 3px;
+       padding: 5px;
+       position: relative;
+}
+
+.hoverbox .preview {
+       border-color: #000;
+	   width: 300px;
+}
+ 
+.hoverbox a {
+       position: relative;
+}
+
+.hoverbox a:hover {
+      display: block;
+	  font-size: 100%;
+	  z-index: 1;
+}
+ 
+.hoverbox a:hover .preview {
+      top: -38px;
+	  left: -50px;
+}
+.hoverbox li {
+      position: static;
+}
+
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+ul.topnav li {float: left;}
+
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+ul.topnav li a:hover {background-color: #555;}
+
+
+ul.topnav li.icon {display: none;}
+
+
+footer {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	background: #505050;
+	bottom: 0;
+	text-align: center;
+}
+.copyright p {
+	margin: 0;
+	padding: 0;
+	line-height: 60px;
+	color: #fff
+}
+
+</style> 
+
+</body>
+</html>
+
+
+
